@@ -72,7 +72,6 @@ getNewQuestion = () => {
 
     choices.forEach(choice => {
         const number = choice.dataset['number']
-        console.log(number,'mukhtar');
         choice.innerText = currentQuestion['choice' + number]
     })
 
